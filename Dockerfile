@@ -18,6 +18,8 @@ COPY ./build.sbt .
 RUN sbt clean
 RUN rm ./build.sbt
 
-# set up for sbt
+# TODO(jmeifert): CMD is probably redundant
+# (BEGIN section modified from Dockerfile for sbtscala/scala-sbt)
 WORKDIR /root
 CMD ["sbt"]
+# (END section modified from Dockerfile for sbtscala/scala-sbt)
