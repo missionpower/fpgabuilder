@@ -2,7 +2,7 @@
 # and testing FPGA designs.
 
 # sbt provides nice images already
-FROM sbtscala/scala-sbt:eclipse-temurin-25.0.1_8_1.12.0_2.12.21
+FROM sbtscala/scala-sbt:eclipse-temurin-25.0.1_8_1.12.2_2.12.21
 
 # verilator does too but it's easier to just build it here
 # (BEGIN section modified from Dockerfile for verilator/verilator)
